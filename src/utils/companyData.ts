@@ -1,104 +1,203 @@
 const companyData = [
 {
-name:"Google",
-logo:"https://logo.clearbit.com/google.com",
-description:"Global technology company specializing in internet services and products."
+name:"Graffersid Web and App Development",
+location:"816 Shekhar Central, AB Road",
+city:"Indore",
+foundedOn:"2016-01-01",
+overallRating:4.5,
+totalReviews:41,
+logo:""
 },
+
 {
-name:"Microsoft",
-logo:"https://logo.clearbit.com/microsoft.com",
-description:"Technology company focused on software, cloud computing and AI."
+name:"Techdome Solutions",
+location:"Vijay Nagar Square",
+city:"Indore",
+foundedOn:"2017-04-15",
+overallRating:4.2,
+totalReviews:35,
+logo:""
 },
+
 {
-name:"Amazon",
-logo:"https://logo.clearbit.com/amazon.com",
-description:"E-commerce and cloud computing company."
+name:"Infobeans Technologies",
+location:"Crystal IT Park",
+city:"Indore",
+foundedOn:"2000-08-12",
+overallRating:4.6,
+totalReviews:48,
+logo:""
 },
+
 {
-name:"Netflix",
-logo:"https://logo.clearbit.com/netflix.com",
-description:"Streaming platform for movies and TV shows."
+name:"Tata Consultancy Services",
+location:"Super Corridor",
+city:"Indore",
+foundedOn:"1968-04-01",
+overallRating:4.4,
+totalReviews:56,
+logo:""
 },
+
 {
-name:"Adobe",
-logo:"https://logo.clearbit.com/adobe.com",
-description:"Software company focused on creativity and design tools."
+name:"Yash Technologies",
+location:"Scheme No.54",
+city:"Indore",
+foundedOn:"1996-10-15",
+overallRating:4.3,
+totalReviews:29,
+logo:""
 },
+
 {
-name:"Uber",
-logo:"https://logo.clearbit.com/uber.com",
-description:"Mobility and transportation technology platform."
+name:"Accenture",
+location:"Brilliant Convention Center Road",
+city:"Indore",
+foundedOn:"1989-06-20",
+overallRating:4.1,
+totalReviews:44,
+logo:""
 },
+
 {
-name:"Flipkart",
-logo:"https://logo.clearbit.com/flipkart.com",
-description:"Indian e-commerce marketplace."
+name:"Cognizant",
+location:"Super Corridor",
+city:"Indore",
+foundedOn:"1994-01-26",
+overallRating:4.4,
+totalReviews:39,
+logo:""
 },
+
 {
-name:"Zomato",
-logo:"https://logo.clearbit.com/zomato.com",
-description:"Food delivery and restaurant discovery platform."
+name:"Capgemini",
+location:"Vijay Nagar",
+city:"Indore",
+foundedOn:"1967-10-01",
+overallRating:4.2,
+totalReviews:47,
+logo:""
 },
+
 {
-name:"Swiggy",
-logo:"https://logo.clearbit.com/swiggy.com",
-description:"Food delivery and quick commerce company."
+name:"Persistent Systems",
+location:"MR10 Road",
+city:"Indore",
+foundedOn:"1990-05-16",
+overallRating:4.3,
+totalReviews:37,
+logo:""
 },
+
+{
+name:"TechMahindra",
+location:"Scheme No.78",
+city:"Indore",
+foundedOn:"1986-10-24",
+overallRating:4.0,
+totalReviews:31,
+logo:""
+},
+
 {
 name:"Infosys",
-logo:"https://logo.clearbit.com/infosys.com",
-description:"Indian multinational IT services company."
+location:"Super Corridor",
+city:"Indore",
+foundedOn:"1981-07-02",
+overallRating:4.5,
+totalReviews:65,
+logo:""
 },
-{
-name:"TCS",
-logo:"https://logo.clearbit.com/tcs.com",
-description:"IT consulting and software services company."
-},
+
 {
 name:"Wipro",
-logo:"https://logo.clearbit.com/wipro.com",
-description:"Technology services and consulting company."
+location:"Scheme No.140",
+city:"Indore",
+foundedOn:"1945-12-29",
+overallRating:4.3,
+totalReviews:51,
+logo:""
 },
-{
-name:"Meta",
-logo:"https://logo.clearbit.com/meta.com",
-description:"Social media and virtual technology company."
-},
-{
-name:"Apple",
-logo:"https://logo.clearbit.com/apple.com",
-description:"Consumer electronics and software company."
-},
-{
-name:"Spotify",
-logo:"https://logo.clearbit.com/spotify.com",
-description:"Music and audio streaming platform."
-},
-{
-name:"Paytm",
-logo:"https://logo.clearbit.com/paytm.com",
-description:"Digital payments and financial services company."
-},
-{
-name:"Tesla",
-logo:"https://logo.clearbit.com/tesla.com",
-description:"Electric vehicle and clean energy company."
-},
-{
-name:"Airbnb",
-logo:"https://logo.clearbit.com/airbnb.com",
-description:"Online marketplace for lodging and travel."
-},
-{
-name:"Oracle",
-logo:"https://logo.clearbit.com/oracle.com",
-description:"Enterprise software and database company."
-},
-{
-name:"Salesforce",
-logo:"https://logo.clearbit.com/salesforce.com",
-description:"CRM and cloud-based software company."
-}
-]
 
-export default companyData
+{
+name:"IBM India",
+location:"Vijay Nagar",
+city:"Indore",
+foundedOn:"1911-06-16",
+overallRating:4.4,
+totalReviews:61,
+logo:""
+},
+
+{
+name:"Zensar Technologies",
+location:"Bhanwar Kuan",
+city:"Indore",
+foundedOn:"1991-03-19",
+overallRating:4.2,
+totalReviews:33,
+logo:""
+},
+
+{
+name:"Impetus Technologies",
+location:"Scheme No.54",
+city:"Indore",
+foundedOn:"1991-09-05",
+overallRating:4.6,
+totalReviews:42,
+logo:""
+},
+
+{
+name:"ValueLabs",
+location:"Palasia Square",
+city:"Indore",
+foundedOn:"1997-01-10",
+overallRating:4.1,
+totalReviews:27,
+logo:""
+},
+
+{
+name:"Mindtree",
+location:"Super Corridor",
+city:"Indore",
+foundedOn:"1999-08-18",
+overallRating:4.4,
+totalReviews:45,
+logo:""
+},
+
+{
+name:"Birlasoft",
+location:"MR9 Road",
+city:"Indore",
+foundedOn:"1990-11-04",
+overallRating:4.0,
+totalReviews:24,
+logo:""
+},
+
+{
+name:"Deloitte India",
+location:"Vijay Nagar",
+city:"Indore",
+foundedOn:"1845-01-01",
+overallRating:4.7,
+totalReviews:53,
+logo:""
+},
+
+{
+name:"Zoronal",
+location:"New Palasia",
+city:"Indore",
+foundedOn:"2024-01-01",
+overallRating:4.8,
+totalReviews:12,
+logo:""
+}
+];
+
+export default companyData;

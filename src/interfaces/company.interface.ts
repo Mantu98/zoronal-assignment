@@ -1,7 +1,8 @@
 export interface ICompany {
     name: string;
     logo: string;
-    description: string;
-    overallRating: number;
+    location: string;
+    city: string;
+    foundedOn?: Date;    overallRating: number;
     totalReviews: number;
 }

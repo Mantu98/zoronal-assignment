@@ -5,7 +5,9 @@ const companySchema = new Schema<ICompany>(
     {
         name: { type: String, required: true, trim: true, },
         logo: { type: String, default: "", },
-        description: { type: String, required: true, },
+        location: { type: String, required: true, trim: true, },
+        city: { type: String, required: true, trim: true, },
+        foundedOn: { type: Date, },
         overallRating: { type: Number, default: 0, },
         totalReviews: { type: Number, default: 0, }
     },

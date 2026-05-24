@@ -1,9 +1,15 @@
 import { z } from "zod";
 
-export const companySchema = z.object({
-    body: z.object({
-        name: z.string().min(2, "Company name required"),
-        logo: z.string().url("Invalid logo url").optional(),
-        description: z.string().min(10, "Description too short")
-    })
+export const createCompanySchema = z.object({
+  body: z.object({
+    name: z.string().min(2),
+
+    location: z.string(),
+
+    city: z.string(),
+
+    foundedOn: z.string().optional(),
+
+    logo: z.string().optional()
+  })
 });
