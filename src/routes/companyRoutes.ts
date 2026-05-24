@@ -1,10 +1,10 @@
 import express from "express";
-import { getCompanies, getCompanyById } from "../controllers/companyController";
+import { createCompany, getCompanies, getCompanyById } from "../controllers/companyController";
 
 const router = express.Router();
 
-router.get("/", getCompanies);
-
-router.get("/:id", getCompanyById);
+router.get("/",getCompanies);
+router.get("/:id",getCompanyById);
+router.post("/",createCompany);
 
 export default router;
