@@ -28,5 +28,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "verbatimModuleSyntax": false
-  }
+  },
+  "include": ["src"]
 }
